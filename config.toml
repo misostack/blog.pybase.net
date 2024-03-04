@@ -1,0 +1,27 @@
+baseURL = 'https://blog.pybase.net'
+languageCode = 'en-us'
+title = 'Useful Python Tricks, Django Tips, Tricks and Best Practices. Machine Learning Tutorials.'
+theme = '2022'
+ignoreFiles = ['\assets\node_modules\.*']
+[params]
+    name = "Pybase"
+    description = "Python Tricks, Django Tips to Make You a Better Programmer"
+    keywords = "Python Tricks, Django Tips"
+    dateFormat = "2006-01-02 15:04:05"
+    image = "/themes/2022/src/assets/images/logo.png"
+    blog_pager = 10
+    note_pager = 10
+    article_pager = 10
+    home_post_limit = 10
+    GACode = ""
+    home_category_left = "cheatsheet"
+    home_category_center = "cheatsheet"
+    home_category_right = "cheatsheet"
+    home_category_main = "cheatsheet"
+    home_category_bottom = "cheatsheet"
+    footer_tag_first_column = "python"
+    footer_tag_second_column = "python"
+    footer_tag_third_column = "python"
+[taxonomies]
+    category = "categories"
+    tag = "tags"

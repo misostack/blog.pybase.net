@@ -1,0 +1,96 @@
+[
+  {
+    "name": "AI",
+    "url": "categories/ai",
+    "childrens": [
+      {
+        "name": "Machine Learning",
+        "url": "categories/machine-learning",
+        "childrens": [
+        ]
+      }, 
+      {
+        "name": "Large Language Model",
+        "url": "categories/llm",
+        "childrens": [
+        ]
+      }            
+    ]
+  },
+  {
+    "name": "Cheatsheet",
+    "url": "categories/cheatsheet",
+    "childrens": [
+    ]
+  },
+  {
+    "name": "Python",
+    "url": "categories/python-tutorial",
+    "childrens": [
+    ]
+  },
+  {
+    "name": "Data Science",
+    "url": "categories/data-science",
+    "childrens": [
+      {
+        "name": "Data Structures & Algorithm Analysis",
+        "url": "categories/dsaa",
+        "childrens": [
+        ]
+      }
+    ]
+  },   
+  {
+    "name": "Frameworks",
+    "url": "#",
+    "childrens": [
+      {
+        "name": "Django Tutorial",
+        "url": "categories/django-tutorial",
+        "childrens": []
+      },
+      {
+        "name": "Flask Tutorial",
+        "url": "categories/flask-tutorial",
+        "childrens": []
+      },
+      {
+        "name": "FastAPI Tutorial",
+        "url": "categories/fast-api-tutorial",
+        "childrens": []
+      }
+    ]
+  },
+  {
+    "name": "Tools",
+    "url": "#",
+    "childrens": [
+      {
+        "name": "Online Regex",
+        "url": "https://regex101.com/",
+        "childrens": []
+      },
+      {
+        "name": "Bash Online",
+        "url": "http://www.bashoneliners.com/",
+        "childrens": []
+      },
+      {
+        "name": "Unix Timestamp Conversion",
+        "url": "https://www.epochconverter.com/",
+        "childrens": []
+      },
+      {
+        "name": "Bash Scripting",
+        "url": "https://ryanstutorials.net/bash-scripting-tutorial/",
+        "childrens": []
+      },
+      {
+        "name": "Explain Shell",
+        "url": "https://explainshell.com/",
+        "childrens": []
+      }
+    ]
+  }
+]
