@@ -12,7 +12,7 @@
     <section class="container section news-section clearfix">      
       <div data-content="newsfeature">
         <div class="clear-fix">
-          {{ $cheatsheetCategory := index .Site.Taxonomies.categories .Site.Params.home_category_left }}
+          {{ $cheatsheetCategory := index .Site.Taxonomies.categories .Site.Params.home_category_main }}
           {{ range first 1 (sort $cheatsheetCategory.Pages "Date" "desc") }}
           <article class="card-post card-post-feature">
             <a href="{{ .Permalink }}">
@@ -26,19 +26,8 @@
             </div>
           </article>
           {{ end }}
-          {{ $systemdesignCategory := index .Site.Taxonomies.categories .Site.Params.home_category_center }}
-          {{ range first 1 (sort $systemdesignCategory.Pages "Date" "desc") }}
-            <article class="card-post card-post-picked">
-              <a href="{{ .Permalink }}">
-                <img src="{{.Params.Image | absURL}}" alt="{{.Title}}" />
-              </a>
-              <h3 class="card-post-title">
-                <a href="{{ .Permalink }}">{{.Title}}</a>
-              </h3>
-            </article>
-          {{ end }}
           {{ $systemdesignCategory := index .Site.Taxonomies.categories .Site.Params.home_category_right }}
-          {{ range first 1 (sort $systemdesignCategory.Pages "Date" "desc") }}
+          {{ range first 2 (sort $systemdesignCategory.Pages "Date" "desc") }}
             <article class="card-post card-post-picked">
               <a href="{{ .Permalink }}">
                 <img src="{{.Params.Image | absURL}}" alt="{{.Title}}" />
@@ -52,7 +41,7 @@
       </div>
       
       <div data-content="newstrending">
-        {{ $lifestyleCategory := index .Site.Taxonomies.categories .Site.Params.home_category_main }}
+        {{ $lifestyleCategory := index .Site.Taxonomies.categories .Site.Params.home_category_left }}
         {{ range first 5 (sort $lifestyleCategory.Pages "Date" "desc") }}
           <article class="card-post card-post-feature">
             <a href="{{ .Permalink }}">
