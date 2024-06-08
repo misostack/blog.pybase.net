@@ -1,4 +1,4 @@
-# Blog JSGURU.NET
+# Blog Pybase
 
 ## Theme Development
 
