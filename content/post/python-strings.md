@@ -106,3 +106,5 @@ print(len("    a     ".strip()))
 # upper
 print(alphabet[1].upper())
 ```
+
+Feel free to run these examples at [Python String](https://replit.com/@pybase/Python-Strings)
