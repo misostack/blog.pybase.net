@@ -122,3 +122,43 @@ if __name__ == "__main__":
     print(password)
 
 ```
+
+## Question 3: Reeborg Challenge
+
+- [Reeborg Challenge Hurdle 4](https://reeborg.ca/reeborg.html?lang=en&mode=python&menu=worlds%2Fmenus%2Freeborg_intro_en.json&name=Hurdle%204&url=worlds%2Ftutorial_en%2Fhurdle4.json)
+
+![image](https://gist.github.com/assets/31009750/1b110c21-ff43-432e-bdf7-01ed5fec1856)
+
+```python
+def turn_right():
+    turn_left()
+    turn_left()
+    turn_left()
+
+def is_wall_on_right():
+    turn_right()
+    is_wall_in_front = wall_in_front()
+    turn_left()
+    return is_wall_in_front
+
+def jump():
+    turn_left()
+    up = 0
+    while is_wall_on_right():
+        move()
+        up += 1
+    turn_right()
+    move()
+    turn_right()
+    for m in range(0,up):
+        move()
+    turn_left()
+def go():
+    move()
+
+while not at_goal():
+    if not wall_in_front():
+        go()
+    if wall_in_front():
+        jump()
+```
