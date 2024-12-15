@@ -12,7 +12,7 @@
     <section class="container section news-section clearfix">      
       <div data-content="newsfeature">
         <div class="clear-fix">
-          {{ $cheatsheetCategory := index .Site.Taxonomies.categories .Site.Params.home_category_main }}
+          {{ $cheatsheetCategory := index .Site.Taxonomies.categories .Site.Params.home_category_center }}
           {{ range first 1 (sort $cheatsheetCategory.Pages "Date" "desc") }}
           <article class="card-post card-post-feature">
             <a href="{{ .Permalink }}">
@@ -85,7 +85,7 @@
         <div class="theiaStickySidebar">
           <div class="sidebar-widget px-4">
             <div class="sidebar-widget-title font-heading">
-              HÃY KHÁM PHÁ THÊM CÁC CHỦ ĐỀ THÚ VỊ KHÁC BÊN DƯỚI
+              EXPLORE MORE INTERESTING TOPICS BELOW
             </div>
             <div class="sidebar-widget-content p-4 flex flex-wrap flex-row">
               {{ range $taxonomyname, $taxonomy := .Site.Taxonomies }}

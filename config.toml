@@ -1,12 +1,12 @@
 baseURL = 'https://blog.pybase.net'
 languageCode = 'en-us'
-title = 'Useful Python Tricks, Django Tips, Tricks and Best Practices. Machine Learning Tutorials.'
+title = 'Self learning AI resources. Python Tutorials and Machine Learning Devops. Django, Flask, FastAPI tutorials.'
 theme = '2022'
 ignoreFiles = ['\assets\node_modules\.*']
 [params]
     name = "Pybase"
-    description = "Python Tricks, Django Tips to Make You a Better Programmer"
-    keywords = "Python Tricks, Django Tips"
+    description = "Education should be free for everyone. That's the main purpose of this blog."
+    keywords = "Self learning AI resources, Python Tutorials, Machine Learning Devops"
     dateFormat = "2006-01-02 15:04:05"
     image = "/themes/2022/src/assets/images/logo.png"
     blog_pager = 10
@@ -15,13 +15,12 @@ ignoreFiles = ['\assets\node_modules\.*']
     home_post_limit = 10
     GACode = "G-JX72TLXK4H"
     home_category_left = "python-tutorial"
-    home_category_center = "cheatsheet"
+    home_category_center = "ai"
     home_category_right = "cheatsheet"
-    home_category_main = "cheatsheet"
-    home_category_bottom = "cheatsheet"
-    footer_tag_first_column = "python"
+    home_category_bottom = "frameworks"
+    footer_tag_first_column = "artificial-intelligence"
     footer_tag_second_column = "python"
-    footer_tag_third_column = "python"
+    footer_tag_third_column = "frameworks"
 [taxonomies]
     category = "categories"
     tag = "tags"

@@ -11,7 +11,7 @@
         <p>
             <strong>Category:</strong>
             {{ range $category:= .Params.categories }}
-            <a class="m-1 p-1 text-xs font-bold leading-none border border-gray-200 bg-white" href="{{ (print "categories/" $category) | absURL }}">{{ $category }}</a>
+            <a class="m-1 p-1 text-xs font-bold leading-none border border-gray-200 bg-white" href="{{ (print "categories/" $category) | lower | absURL }}">{{ $category }}</a>
             {{ end }}
         </p>
         <p>
@@ -21,13 +21,7 @@
              href="{{ "/tags/" }}{{ $value | urlize }}">{{ if $key }}, {{ end }}{{ $value }}</a>
           {{ end }}
         </p>                
-        {{ .Content }}        
-      
-      <div class="m-1 p-1">
-        {{ range $category:= .Params.categories }}
-          <a class="m-1 p-1 text-xs font-bold leading-none border border-gray-200 bg-white" href="{{ (print "categories/" $category) | absURL }}">{{ $category }}</a>
-        {{ end }}
-      </div>
+        {{ .Content }}
     </div>
   </section>
   <section class="container section">

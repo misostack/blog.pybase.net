@@ -2,7 +2,7 @@
   {
     "name": "AI",
     "url": "categories/ai",
-    "childrens": [
+    "childrens": [      
       {
         "name": "Machine Learning",
         "url": "categories/machine-learning",
@@ -10,11 +10,35 @@
         ]
       }, 
       {
-        "name": "Large Language Model",
-        "url": "categories/llm",
+        "name": "Deep Learning",
+        "url": "categories/deep-learning",
         "childrens": [
         ]
-      }            
+      },      
+      {
+        "name": "NLP",
+        "url": "categories/npl",
+        "childrens": [
+        ]
+      },
+      {
+        "name": "Computer vision",
+        "url": "categories/computer-vision",
+        "childrens": [
+        ]
+      },
+      {
+        "name": "LLM & LangChain",
+        "url": "categories/llm-and-lang-chain",
+        "childrens": [
+        ]
+      },
+      {
+        "name": "MLOps",
+        "url": "categories/mlops",
+        "childrens": [
+        ]
+      }      
     ]
   },
   {
@@ -31,14 +55,32 @@
   },
   {
     "name": "Data Science",
-    "url": "categories/data-science",
+    "url": "data-science",
     "childrens": [
       {
         "name": "Data Structures & Algorithm Analysis",
         "url": "categories/dsaa",
         "childrens": [
         ]
-      }
+      },
+      {
+        "name": "Databases",
+        "url": "categories/databases",
+        "childrens": [
+        ]
+      },
+      {
+        "name": "Math & Statistics",
+        "url": "categories/math-and-statistics",
+        "childrens": [
+        ]
+      },
+      {
+        "name": "Analytics & Visualization",
+        "url": "categories/analytics-and-visualization",
+        "childrens": [
+        ]
+      }      
     ]
   },   
   {
@@ -46,18 +88,18 @@
     "url": "#",
     "childrens": [
       {
-        "name": "Django Tutorial",
-        "url": "categories/django-tutorial",
+        "name": "Django",
+        "url": "categories/django",
         "childrens": []
       },
       {
-        "name": "Flask Tutorial",
-        "url": "categories/flask-tutorial",
+        "name": "Flask",
+        "url": "categories/flask",
         "childrens": []
       },
       {
-        "name": "FastAPI Tutorial",
-        "url": "categories/fast-api-tutorial",
+        "name": "FastAPI",
+        "url": "categories/fast-api",
         "childrens": []
       }
     ]

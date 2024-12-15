@@ -4,7 +4,7 @@ type: "post"
 date: 2024-05-13T21:56:32+07:00
 description: "In this tutorial you will learn all related things about function in python"
 keywords: ["Setup Python Environment"]
-categories: ["cheatsheet"]
+categories: ["python-tutorial"]
 tags: ["python"]
 image: "/common/no-image.png"
 ---
