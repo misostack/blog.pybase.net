@@ -13,6 +13,22 @@ image: "/common/no-image.png"
 
 There is tool allow us to install/switch to multiple python versions at first glance.
 
+### Windows
+
+> Install [scoop](https://scoop.sh/)
+
+Make sure you run this in powershell
+
+```sh
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
+```
+
+```sh
+scoop search python
+scoop install python
+```
+
 ### MACOS
 
 ```sh
