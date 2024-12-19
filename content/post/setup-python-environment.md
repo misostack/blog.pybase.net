@@ -78,7 +78,11 @@ which pipenv
 
 #### Use pipenv
 
+By default, Pipenv creates the virtual environment in a global location. To ensure the .venv is created inside your project folder, you need to set the PIPENV_VENV_IN_PROJECT environment variable.
+
 ```sh
+export PIPENV_VENV_IN_PROJECT=1
+pipenv install
 # activate
 pipenv shell
 # install dependencies
@@ -94,6 +98,7 @@ Package Management
 ```sh
 curl -sSL https://install.python-poetry.org | python3 -
 poetry --version
+poetry self update --preview
 ```
 
 ### Adjust poetry venv path
