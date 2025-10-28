@@ -269,6 +269,81 @@ F1 = 2 × (Precision × Recall) / (Precision + Recall)
 
 A high F1-score indicates that the system is both accurate (high precision) and comprehensive (high recall).
 
+## Examples
+
+### Tokenization
+
+```python
+from transformers import GPT2Tokenizer
+
+def observe_tokenization(text):
+  tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
+  tokens = tokenizer.tokenize(text)
+  ids = tokenizer.encode(text)
+
+  print("Tokens:", tokens)
+  print("Token IDs:", ids)
+  print("Decoded back:", tokenizer.decode(ids))
+```
+
+### Similarity
+
+Imagine each number in the vector is a feature of an animal.
+For example:
+
+- Feature 1: number of legs
+- Feature 2: how “friendly/close to humans” it is (1 = not very, 3 = more familiar, 10 = an elephant… which is kind of its own thing 🐘)
+- Feature 3: relative size / body mass
+
+(This is just for illustration, not real scientific data.)
+
+Now we want to ask: which animals are the most similar to each other?
+
+```python
+cat       = [4, 1, 3]
+dog       = [4, 1, 4]
+elephant  = [4, 3, 10]
+```
+
+```python
+# A⋅B=a1×b1+a2×b2+a3×b3
+cat = [4, 1, 3]
+dog = [4, 1, 4]
+
+dot_product_cat_and_dog = 4*4 + 1 * 1 + 3*4 = 29
+
+cat = [4, 1, 3]
+elephant = [4, 3, 10]
+
+dot_product_cat_and_elephant = 4*4 + 1 * 3 + 3*10 = 49
+
+dog = [4, 1, 4]
+elephant = [4, 3, 10]
+
+dot_product_dog_and_elephant = 4*4 + 1 * 3 + 4*10 = 59
+
+# ∥A∥=a12+a22+a32
+‖cat‖ với cat = [4, 1, 3]
+‖cat‖ = √26
+‖dog‖ với dog = [4, 1, 4]
+‖dog‖ = √33
+‖elephant‖ với elephant = [4, 3, 10]
+‖elephant‖ = √125
+
+cos(θ)= (A*B)​ / (‖A‖*‖B‖)
+
+Cosine(cat, dog) = 0.9900
+Cosine(cat, elephant) = 0.8595
+Cosine(dog,elephant) = 0.9186
+```
+
+cosine_similarity expects the input to be in the shape (n_samples, n_features), meaning a 2D matrix.
+
+cat.reshape(1, -1) = 1 sample = the cat
+dog.reshape(1, -1) = 1 sample = the dog
+
+If you just pass a 1D vector like [4, 1, 3] directly, it might throw an error.
+
 ## Terminologies
 
 > Scalar: something that has size (magnitude) but no direction: length (độ dài), area (diện tích), volume (thể tích), speed (tốc độ), mass (khối lượng), density (mật độ), pressure (áp suất), temperature (nhiệt độ), energy (năng lượng), entropy, work (công), power (công suất)  
