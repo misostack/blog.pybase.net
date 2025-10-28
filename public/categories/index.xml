@@ -1,38 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Useful PHP Tricks, Laravel Tips, Tricks and Best Practices</title>
-    <link>https://blog.phpguru.net/categories/</link>
-    <description>Recent content in Categories on Useful PHP Tricks, Laravel Tips, Tricks and Best Practices</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Categories on Self learning AI resources. Python Tutorials and Machine Learning Devops. Django, Flask, FastAPI tutorials.</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on Self learning AI resources. Python Tutorials and Machine Learning Devops. Django, Flask, FastAPI tutorials.</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 07 Aug 2022 09:55:08 +0700</lastBuildDate><atom:link href="https://blog.phpguru.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Oct 2025 08:40:25 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cheatsheet</title>
-      <link>https://blog.phpguru.net/categories/cheatsheet/</link>
-      <pubDate>Sun, 07 Aug 2022 09:55:08 +0700</pubDate>
-      
-      <guid>https://blog.phpguru.net/categories/cheatsheet/</guid>
+      <title>Cheatsheet</title>
+      <link>http://localhost:1313/categories/cheatsheet/</link>
+      <pubDate>Tue, 21 Oct 2025 08:40:25 +0700</pubDate>
+      <guid>http://localhost:1313/categories/cheatsheet/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>frameworks</title>
-      <link>https://blog.phpguru.net/categories/frameworks/</link>
-      <pubDate>Sat, 06 Aug 2022 10:30:21 +0700</pubDate>
-      
-      <guid>https://blog.phpguru.net/categories/frameworks/</guid>
+      <title>Django</title>
+      <link>http://localhost:1313/categories/django/</link>
+      <pubDate>Sun, 15 Dec 2024 18:40:31 +0700</pubDate>
+      <guid>http://localhost:1313/categories/django/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>lifestyle</title>
-      <link>https://blog.phpguru.net/categories/lifestyle/</link>
-      <pubDate>Sat, 06 Aug 2022 10:24:55 +0700</pubDate>
-      
-      <guid>https://blog.phpguru.net/categories/lifestyle/</guid>
+      <title>Frameworks</title>
+      <link>http://localhost:1313/categories/frameworks/</link>
+      <pubDate>Sun, 15 Dec 2024 18:40:31 +0700</pubDate>
+      <guid>http://localhost:1313/categories/frameworks/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>AI</title>
+      <link>http://localhost:1313/categories/ai/</link>
+      <pubDate>Sun, 15 Dec 2024 09:29:45 +0700</pubDate>
+      <guid>http://localhost:1313/categories/ai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python-Tutorial</title>
+      <link>http://localhost:1313/categories/python-tutorial/</link>
+      <pubDate>Sat, 08 Jun 2024 11:34:07 +0700</pubDate>
+      <guid>http://localhost:1313/categories/python-tutorial/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

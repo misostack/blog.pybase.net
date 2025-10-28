@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Django on Self learning AI resources. Python Tutorials and Machine Learning Devops. Django, Flask, FastAPI tutorials.</title>
+    <link>http://localhost:1313/categories/django/</link>
+    <description>Recent content in Django on Self learning AI resources. Python Tutorials and Machine Learning Devops. Django, Flask, FastAPI tutorials.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Dec 2024 18:40:31 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/django/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django Tutorial - Roadmap</title>
+      <link>http://localhost:1313/post/django-tutorial/</link>
+      <pubDate>Sun, 15 Dec 2024 18:40:31 +0700</pubDate>
+      <guid>http://localhost:1313/post/django-tutorial/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

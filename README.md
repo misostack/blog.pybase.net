@@ -31,7 +31,7 @@ hugo new post/docker-cheatsheet.md "Docker Cheatsheet for php developers"
 ```
 
 ```bash
- hugo new post/php-tutorial-topic.md "PHP Tutorial Topic"
+hugo new post/php-tutorial-topic.md "PHP Tutorial Topic"
 ```
 
 ```bash

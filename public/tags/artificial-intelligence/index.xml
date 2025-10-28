@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Artificial-Intelligence on Self learning AI resources. Python Tutorials and Machine Learning Devops. Django, Flask, FastAPI tutorials.</title>
+    <link>http://localhost:1313/tags/artificial-intelligence/</link>
+    <description>Recent content in Artificial-Intelligence on Self learning AI resources. Python Tutorials and Machine Learning Devops. Django, Flask, FastAPI tutorials.</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Dec 2024 09:29:45 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/artificial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Self Learning AI Roadmap 2025</title>
+      <link>http://localhost:1313/post/self-learning-ai-roadmap-2025/</link>
+      <pubDate>Sun, 15 Dec 2024 09:29:45 +0700</pubDate>
+      <guid>http://localhost:1313/post/self-learning-ai-roadmap-2025/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
